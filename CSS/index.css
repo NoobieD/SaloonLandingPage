@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar > div{
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.navbar .menu{
+    margin-right: auto;
+}
+
+.navbar .lang{
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Social Media */
+
+.media ul{
+    position: absolute;
+    bottom: 250px;
+    left: -140px;
+    transform: rotate(-90deg);
+}
+
+.media ul li{
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 0 30px;
+}
+
+/* Text */
+
+.text{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    transform: rotate(-90deg);
+}
+
+
+.text h1{
+    font-size: 120px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    letter-spacing: -5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text h2{
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    color: aqua;
+    z-index: -1;
+    font-size: 224px;
+    font-weight: 600;
+    letter-spacing: 8px;
+
+}
+
+.text h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1;
+    position: relative;
+    overflow: hidden;
+    height: 80px;
+}
+
+.text p{
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text h3.hideText{
+    position: absolute;
+}
+
+
+/* Sponsor */
+
+.sponsor{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    text-align: center;
+}
+
+.sponsor img{
+    width: 200px;
+    transform: rotate(-90deg);
+}
+
+.sponsor p{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Distortion */
+
+.distortion{
+    width: 800px;
+    height: 900px;
+    position: absolute;
+    right: 400px;
+    bottom: 0;
+}
